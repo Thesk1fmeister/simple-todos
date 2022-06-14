@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 156, 119);
+}
+.postarray {
+  display: flex;
+
+}
+main {
+  width: 70%;
+  margin: 10px auto;
+  position: relative;
+}
+main .todo-form {
+  padding: 20px 10px;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+}
+main .todo-form p {
+  margin-left: 5px;
+  text-align: center;
+  line-height: 25px;
+  background-color: rgb(209, 136, 0);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 25px; 
+  color: #000;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+main .todo-form p:hover {
+  color: #fff;
+  transform: scale(1.05);
+  background-color: rgb(153, 99, 0);
+}
+main .todo-form input {
+  outline: none;
+  border: 2px solid rgb(212, 155, 80);
+  border-radius: 50px;
+  background-color: transparent;
+  color: rgb(223, 223, 223);
+  font-size: 20px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+.cart {
+  display: flex;
+  word-wrap: break-word;
+  overflow: auto;
+  margin: 25px;
+  background-color:#dbab6c;
+  padding: 10px 10px;
+}
+.cart p {
+  margin-right: 15px;
+  position: relative;
+  background-color: #cc8a33;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 25px;
+  transition: all 500ms ease;
+}
+.cart p:hover {
+  color: #fff;
+  background-color: #c47105;
+  transform: scale(1.05);
+}
+.form-for-list {
+  margin: 10px auto;
+  width: 70%;
+  background-color: #fff;
+}
